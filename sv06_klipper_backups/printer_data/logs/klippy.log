@@ -2145,3 +2145,642 @@ cp: cannot stat '/home/biqu/printer_data/config/sounds.cfg': No such file or dir
 
 cp: cannot stat '/home/biqu/printer_data/config/macros.cfg': No such file or directory
 
+cp: cannot copy a directory, '/home/biqu/printer_data/', into itself, '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data'
+
+Reinitialized existing Git repository in /home/biqu/printer_data/klipper-backup/.git/
+
+WARNING: git-filter-branch has a glut of gotchas generating mangled history
+	 rewrites.  Hit Ctrl-C before proceeding to abort, then use an
+	 alternative filtering tool such as 'git filter-repo'
+	 (https://github.com/newren/git-filter-repo/) instead.  See the
+	 filter-branch manual page for more details; to squelch this warning,
+	 set FILTER_BRANCH_SQUELCH_WARNING=1.
+
+Proceeding with filter-branch...
+
+
+Cannot rewrite branches: You have unstaged changes.
+
+warning: adding embedded git repository: sv06_klipper_backups/printer_data/klipper-backup
+
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> sv06_klipper_backups/printer_data/klipper-backup
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached sv06_klipper_backups/printer_data/klipper-backup
+hint: 
+hint: See "git help submodule" for more information.
+
+[main c6a81ed] New backup from 20-11-23
+ Committer: biqu <biqu@BTT-Pad7.fritz.box>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 32 files changed, 16356 insertions(+), 1 deletion(-)
+ create mode 100644 sv06_klipper_backups/printer_data/.moonraker.uuid
+ create mode 100644 sv06_klipper_backups/printer_data/backup/20231118T163615Z/config/moonraker.conf
+ create mode 120000 sv06_klipper_backups/printer_data/comms/klippy.serial
+ create mode 100644 sv06_klipper_backups/printer_data/config/.moonraker.conf.bkp
+ create mode 100644 sv06_klipper_backups/printer_data/config/KlipperScreen.conf
+ create mode 100644 sv06_klipper_backups/printer_data/config/crowsnest.conf
+ create mode 120000 sv06_klipper_backups/printer_data/config/mainsail.cfg
+ create mode 100644 sv06_klipper_backups/printer_data/config/moonraker.conf
+ create mode 100644 sv06_klipper_backups/printer_data/config/moonraker.conf.backup
+ create mode 100644 sv06_klipper_backups/printer_data/config/printer-20231119_145044.cfg
+ create mode 100644 sv06_klipper_backups/printer_data/config/printer-20231120_114625.cfg
+ create mode 100644 sv06_klipper_backups/printer_data/config/printer.cfg
+ create mode 100644 sv06_klipper_backups/printer_data/config/printer_orig.cfg
+ create mode 100644 sv06_klipper_backups/printer_data/config/shell_command.cfg
+ create mode 100644 sv06_klipper_backups/printer_data/database/data.mdb
+ create mode 100644 sv06_klipper_backups/printer_data/database/lock.mdb
+ create mode 160000 sv06_klipper_backups/printer_data/klipper-backup
+ create mode 100644 sv06_klipper_backups/printer_data/logs/KlipperScreen.log
+ create mode 100644 sv06_klipper_backups/printer_data/logs/crowsnest.log
+ create mode 100644 sv06_klipper_backups/printer_data/logs/klippy.log
+ create mode 100644 sv06_klipper_backups/printer_data/logs/klippy.log.2023-11-18
+ create mode 100644 sv06_klipper_backups/printer_data/logs/klippy.log.2023-11-19
+ create mode 120000 sv06_klipper_backups/printer_data/logs/mainsail-access.log
+ create mode 120000 sv06_klipper_backups/printer_data/logs/mainsail-error.log
+ create mode 100644 sv06_klipper_backups/printer_data/logs/moonraker.log
+ create mode 100644 sv06_klipper_backups/printer_data/logs/moonraker.log.2023-11-18
+ create mode 100644 sv06_klipper_backups/printer_data/logs/moonraker.log.2023-11-19
+ create mode 100644 sv06_klipper_backups/printer_data/moonraker.asvc
+ create mode 100644 sv06_klipper_backups/printer_data/systemd/crowsnest.env
+ create mode 100644 sv06_klipper_backups/printer_data/systemd/klipper.env
+ create mode 100644 sv06_klipper_backups/printer_data/systemd/moonraker.env
+
+To https://github.com/greebo28/sv06_klipper_backups.git
+   13b434c..c6a81ed  main -> main
+
+Command {update_git_script} finished
+
+Starting Klippy...
+Args: ['/home/biqu/klipper/klippy/klippy.py', '/home/biqu/printer_data/config/printer.cfg', '-I', '/home/biqu/printer_data/comms/klippy.serial', '-l', '/home/biqu/printer_data/logs/klippy.log', '-a', '/home/biqu/printer_data/comms/klippy.sock']
+Git version: 'v0.12.0-8-g187cc2f1-dirty'
+Untracked files: klippy/extras/gcode_shell_command.py
+Branch: master
+Remote: origin
+Tracked URL: https://github.com/Klipper3d/klipper
+CPU: 4 core ?
+Python: '3.9.2 (default, Feb 28 2021, 17:03:44) \n[GCC 10.2.1 20210110]'
+Start printer at Mon Nov 20 14:10:53 2023 (1700489453.6 39.5)
+===== Config file =====
+[gcode_shell_command hello_world]
+command = echo hello world
+timeout = 2.
+verbose = True
+
+[gcode_macro HELLO_WORLD]
+gcode = 
+	RUN_SHELL_COMMAND CMD=hello_world
+
+[mcu]
+serial = /dev/serial/by-path/platform-5200000.usb-usb-0:1.3:1.0-port0
+restart_method = command
+
+[printer]
+kinematics = cartesian
+max_velocity = 300
+max_accel = 3000
+max_z_velocity = 5
+max_z_accel = 100
+
+[stepper_x]
+step_pin = PC2
+dir_pin = !PB9
+enable_pin = !PC3
+microsteps = 16
+rotation_distance = 40
+endstop_pin = tmc2209_stepper_x:virtual_endstop
+position_endstop = 0
+position_max = 225
+homing_speed = 40
+homing_retract_dist = 0
+
+[tmc2209 stepper_x]
+uart_pin = PC1
+run_current = 0.860
+stealthchop_threshold = 0
+interpolate = False
+sense_resistor = 0.150
+uart_address = 3
+driver_sgthrs = 81
+diag_pin = PA5
+
+[stepper_y]
+step_pin = PB8
+dir_pin = PB7
+enable_pin = !PC3
+microsteps = 16
+rotation_distance = 40
+endstop_pin = tmc2209_stepper_y:virtual_endstop
+position_endstop = 0
+position_max = 225
+homing_speed = 40
+homing_retract_dist = 0
+
+[tmc2209 stepper_y]
+uart_pin = PC0
+run_current = 0.900
+stealthchop_threshold = 0
+interpolate = False
+sense_resistor = 0.150
+uart_address = 3
+driver_sgthrs = 82
+diag_pin = PA6
+
+[stepper_z]
+step_pin = PB6
+dir_pin = !PB5
+enable_pin = !PC3
+microsteps = 16
+rotation_distance = 4
+endstop_pin = probe:z_virtual_endstop
+position_min = -4
+position_max = 261
+homing_speed = 4
+
+[tmc2209 stepper_z]
+uart_pin = PA15
+run_current = 1.000
+stealthchop_threshold = 0
+interpolate = False
+sense_resistor = 0.150
+uart_address = 3
+diag_pin = PA7
+
+[extruder]
+max_extrude_only_distance = 100.0
+step_pin = PB4
+dir_pin = !PB3
+enable_pin = !PC3
+microsteps = 16
+rotation_distance = 4.56
+nozzle_diameter = 0.400
+filament_diameter = 1.750
+heater_pin = PA1
+sensor_type = EPCOS 100K B57560G104F
+sensor_pin = PC5
+min_temp = 0
+max_temp = 300
+control = pid
+pid_kp = 23.940
+pid_ki = 1.629
+pid_kd = 87.981
+
+[tmc2209 extruder]
+uart_pin = PC14
+run_current = 0.550
+stealthchop_threshold = 0
+interpolate = False
+sense_resistor = 0.150
+uart_address = 3
+
+[heater_bed]
+heater_pin = PA2
+sensor_type = EPCOS 100K B57560G104F
+sensor_pin = PC4
+min_temp = 0
+max_temp = 130
+control = pid
+pid_kp = 69.445
+pid_ki = 1.146
+pid_kd = 1052.087
+
+[fan]
+pin = PA0
+
+[probe]
+pin = PB1
+x_offset = 28
+y_offset = -20
+samples = 2
+samples_tolerance = 0.015
+samples_tolerance_retries = 5
+z_offset = -0.230
+
+[safe_z_home]
+home_xy_position = 85,135
+z_hop = 10
+z_hop_speed = 5
+
+[bed_mesh]
+speed = 120
+horizontal_move_z = 5
+mesh_min = 28, 20
+mesh_max = 210, 205
+probe_count = 10
+algorithm = bicubic
+fade_start = 1
+fade_end = 10
+fade_target = 0
+
+[display]
+lcd_type = st7920
+cs_pin = PB12
+sclk_pin = PB13
+sid_pin = PB15
+encoder_pins = ^PB14, ^PB10
+click_pin = ^!PB2
+
+[virtual_sdcard]
+path = ~/printer_data/gcodes
+on_error_gcode = CANCEL_PRINT
+
+[pause_resume]
+
+[display_status]
+
+[respond]
+
+[gcode_macro CANCEL_PRINT]
+description = Cancel the actual running print
+rename_existing = CANCEL_PRINT_BASE
+gcode = 
+	
+	{% set client = printer['gcode_macro _CLIENT_VARIABLE']|default({}) %}
+	{% set allow_park = client.park_at_cancel|default(false)|lower == 'true' %}
+	{% set retract = client.cancel_retract|default(5.0)|abs %}
+	
+	{% set park_x = "" if (client.park_at_cancel_x|default(none) is none)
+	else "X=" ~ client.park_at_cancel_x %}
+	{% set park_y = "" if (client.park_at_cancel_y|default(none) is none)
+	else "Y=" ~ client.park_at_cancel_y %}
+	{% set custom_park = park_x|length > 0 or park_y|length > 0 %}
+	
+	
+	{% if printer['gcode_macro RESUME'].restore_idle_timeout > 0 %}
+	SET_IDLE_TIMEOUT TIMEOUT={printer['gcode_macro RESUME'].restore_idle_timeout}
+	{% endif %}
+	{% if (custom_park or not printer.pause_resume.is_paused) and allow_park %} _TOOLHEAD_PARK_PAUSE_CANCEL {park_x} {park_y} {% endif %}
+	_CLIENT_RETRACT LENGTH={retract}
+	TURN_OFF_HEATERS
+	M106 S0
+	{client.user_cancel_macro|default("")}
+	SET_GCODE_VARIABLE MACRO=RESUME VARIABLE=idle_state VALUE=False
+	
+	SET_PAUSE_NEXT_LAYER ENABLE=0
+	SET_PAUSE_AT_LAYER ENABLE=0 LAYER=0
+	CANCEL_PRINT_BASE
+
+[gcode_macro PAUSE]
+description = Pause the actual running print
+rename_existing = PAUSE_BASE
+gcode = 
+	
+	{% set client = printer['gcode_macro _CLIENT_VARIABLE']|default({}) %}
+	{% set idle_timeout = client.idle_timeout|default(0) %}
+	{% set temp = printer[printer.toolhead.extruder].target if printer.toolhead.extruder != '' else 0 %}
+	{% set restore = False if printer.toolhead.extruder == ''
+	else True  if params.RESTORE|default(1)|int == 1 else False %}
+	
+	SET_GCODE_VARIABLE MACRO=RESUME VARIABLE=last_extruder_temp VALUE="{{'restore': restore, 'temp': temp}}"
+	
+	{% if idle_timeout > 0 %}
+	SET_GCODE_VARIABLE MACRO=RESUME VARIABLE=restore_idle_timeout VALUE={printer.configfile.settings.idle_timeout.timeout}
+	SET_IDLE_TIMEOUT TIMEOUT={idle_timeout}
+	{% endif %}
+	PAUSE_BASE
+	{client.user_pause_macro|default("")}
+	_TOOLHEAD_PARK_PAUSE_CANCEL {rawparams}
+
+[gcode_macro RESUME]
+description = Resume the actual running print
+rename_existing = RESUME_BASE
+variable_last_extruder_temp = {'restore': False, 'temp': 0}
+variable_restore_idle_timeout = 0
+variable_idle_state = False
+gcode = 
+	
+	{% set client = printer['gcode_macro _CLIENT_VARIABLE']|default({}) %}
+	{% set velocity = printer.configfile.settings.pause_resume.recover_velocity %}
+	{% set sp_move = client.speed_move|default(velocity) %}
+	{% set runout_resume = True if client.runout_sensor|default("") == ""
+	else True if not printer[client.runout_sensor].enabled
+	else printer[client.runout_sensor].filament_detected %}
+	{% set can_extrude = True if printer.toolhead.extruder == ''
+	else printer[printer.toolhead.extruder].can_extrude %}
+	{% set do_resume = False %}
+	
+	
+	{% if printer.idle_timeout.state|upper == "IDLE" or idle_state %}
+	SET_GCODE_VARIABLE MACRO=RESUME VARIABLE=idle_state VALUE=False
+	{% if last_extruder_temp.restore %}
+	
+	RESPOND TYPE=echo MSG='{"Restoring \"%s\" temperature to %3.1f\u00B0C, this may take some time" % (printer.toolhead.extruder, last_extruder_temp.temp) }'
+	M109 S{last_extruder_temp.temp}
+	{% set do_resume = True %}
+	{% elif can_extrude %}
+	{% set do_resume = True %}
+	{% else %}
+	RESPOND TYPE=error MSG='{"Resume aborted !!! \"%s\" not hot enough, please heat up again and press RESUME" % printer.toolhead.extruder}'
+	{% endif %}
+	
+	{% elif can_extrude %}
+	{% set do_resume = True %}
+	{% else %}
+	RESPOND TYPE=error MSG='{"Resume aborted !!! \"%s\" not hot enough, please heat up again and press RESUME" % printer.toolhead.extruder}'
+	{% endif %}
+	{% if runout_resume %}
+	{% if do_resume %}
+	{% if restore_idle_timeout > 0 %} SET_IDLE_TIMEOUT TIMEOUT={restore_idle_timeout} {% endif %}
+	{client.user_resume_macro|default("")}
+	_CLIENT_EXTRUDE
+	RESUME_BASE VELOCITY={params.VELOCITY|default(sp_move)}
+	{% endif %}
+	{% else %}
+	RESPOND TYPE=error MSG='{"Resume aborted !!! \"%s\" detects no filament, please load filament and press RESUME" % (client.runout_sensor.split(" "))[1]}'
+	{% endif %}
+
+[gcode_macro SET_PAUSE_NEXT_LAYER]
+description = Enable a pause if the next layer is reached
+gcode = 
+	{% set pause_next_layer = printer['gcode_macro SET_PRINT_STATS_INFO'].pause_next_layer %}
+	{% set ENABLE = params.ENABLE|default(1)|int != 0 %}
+	{% set MACRO = params.MACRO|default(pause_next_layer.call, True) %}
+	SET_GCODE_VARIABLE MACRO=SET_PRINT_STATS_INFO VARIABLE=pause_next_layer VALUE="{{ 'enable': ENABLE, 'call': MACRO }}"
+
+[gcode_macro SET_PAUSE_AT_LAYER]
+description = Enable/disable a pause if a given layer number is reached
+gcode = 
+	{% set pause_at_layer = printer['gcode_macro SET_PRINT_STATS_INFO'].pause_at_layer %}
+	{% set ENABLE = params.ENABLE|int != 0 if params.ENABLE is defined
+	else params.LAYER is defined %}
+	{% set LAYER = params.LAYER|default(pause_at_layer.layer)|int %}
+	{% set MACRO = params.MACRO|default(pause_at_layer.call, True) %}
+	SET_GCODE_VARIABLE MACRO=SET_PRINT_STATS_INFO VARIABLE=pause_at_layer VALUE="{{ 'enable': ENABLE, 'layer': LAYER, 'call': MACRO }}"
+
+[gcode_macro SET_PRINT_STATS_INFO]
+rename_existing = SET_PRINT_STATS_INFO_BASE
+description = Overwrite, to get pause_next_layer and pause_at_layer feature
+variable_pause_next_layer = { 'enable': False, 'call': "PAUSE" }
+variable_pause_at_layer = { 'enable': False, 'layer': 0, 'call': "PAUSE" }
+gcode = 
+	{% if pause_next_layer.enable %}
+	RESPOND TYPE=echo MSG='{"%s, forced by pause_next_layer" % pause_next_layer.call}'
+	{pause_next_layer.call}
+	SET_PAUSE_NEXT_LAYER ENABLE=0
+	{% elif pause_at_layer.enable and params.CURRENT_LAYER is defined and params.CURRENT_LAYER|int == pause_at_layer.layer %}
+	RESPOND TYPE=echo MSG='{"%s, forced by pause_at_layer [%d]" % (pause_at_layer.call, pause_at_layer.layer)}'
+	{pause_at_layer.call}
+	SET_PAUSE_AT_LAYER ENABLE=0
+	{% endif %}
+	SET_PRINT_STATS_INFO_BASE {rawparams}
+
+[gcode_macro _TOOLHEAD_PARK_PAUSE_CANCEL]
+description = Helper: park toolhead used in PAUSE and CANCEL_PRINT
+gcode = 
+	
+	{% set client = printer['gcode_macro _CLIENT_VARIABLE']|default({}) %}
+	{% set velocity = printer.configfile.settings.pause_resume.recover_velocity %}
+	{% set use_custom     = client.use_custom_pos|default(false)|lower == 'true' %}
+	{% set custom_park_x  = client.custom_park_x|default(0.0) %}
+	{% set custom_park_y  = client.custom_park_y|default(0.0) %}
+	{% set park_dz        = client.custom_park_dz|default(2.0)|abs %}
+	{% set sp_hop         = client.speed_hop|default(15) * 60 %}
+	{% set sp_move        = client.speed_move|default(velocity) * 60 %}
+	
+	{% set origin    = printer.gcode_move.homing_origin %}
+	{% set act       = printer.gcode_move.gcode_position %}
+	{% set max       = printer.toolhead.axis_maximum %}
+	{% set cone      = printer.toolhead.cone_start_z|default(max.z) %}
+	{% set round_bed = True if printer.configfile.settings.printer.kinematics is in ['delta','polar','rotary_delta','winch']
+	else False %}
+	
+	{% set z_min = params.Z_MIN|default(0)|float %}
+	{% set z_park = [[(act.z + park_dz), z_min]|max, (max.z - origin.z)]|min %}
+	{% set x_park = params.X       if params.X is defined
+	else custom_park_x  if use_custom
+	else 0.0            if round_bed
+	else (max.x - 5.0) %}
+	{% set y_park = params.Y       if params.Y is defined
+	else custom_park_y  if use_custom
+	else (max.y - 5.0)  if round_bed and z_park < cone
+	else 0.0            if round_bed
+	else (max.y - 5.0) %}
+	
+	_CLIENT_RETRACT
+	{% if "xyz" in printer.toolhead.homed_axes %}
+	G90
+	G1 Z{z_park} F{sp_hop}
+	G1 X{x_park} Y{y_park} F{sp_move}
+	{% if not printer.gcode_move.absolute_coordinates %} G91 {% endif %}
+	{% else %}
+	RESPOND TYPE=echo MSG='Printer not homed'
+	{% endif %}
+
+[gcode_macro _CLIENT_EXTRUDE]
+description = Extrudes, if the extruder is hot enough
+gcode = 
+	
+	{% set client = printer['gcode_macro _CLIENT_VARIABLE']|default({}) %}
+	{% set use_fw_retract = (client.use_fw_retract|default(false)|lower == 'true') and (printer.firmware_retraction is defined) %}
+	{% set length = params.LENGTH|default(client.unretract)|default(1.0)|float %}
+	{% set speed = params.SPEED|default(client.speed_unretract)|default(35) %}
+	{% set absolute_extrude = printer.gcode_move.absolute_extrude %}
+	
+	{% if printer.toolhead.extruder != '' %}
+	{% if printer[printer.toolhead.extruder].can_extrude %}
+	{% if use_fw_retract %}
+	{% if length < 0 %}
+	G10
+	{% else %}
+	G11
+	{% endif %}
+	{% else %}
+	M83
+	G1 E{length} F{(speed|float|abs) * 60}
+	{% if absolute_extrude %}
+	M82
+	{% endif %}
+	{% endif %}
+	{% else %}
+	RESPOND TYPE=echo MSG='{"\"%s\" not hot enough" % printer.toolhead.extruder}'
+	{% endif %}
+	{% endif %}
+
+[gcode_macro _CLIENT_RETRACT]
+description = Retracts, if the extruder is hot enough
+gcode = 
+	{% set client = printer['gcode_macro _CLIENT_VARIABLE']|default({}) %}
+	{% set length = params.LENGTH|default(client.retract)|default(1.0)|float %}
+	{% set speed = params.SPEED|default(client.speed_retract)|default(35) %}
+	
+	_CLIENT_EXTRUDE LENGTH=-{length|float|abs} SPEED={speed|float|abs}
+
+[gcode_macro update_git]
+gcode = 
+	RUN_SHELL_COMMAND CMD=update_git_script
+
+[gcode_shell_command update_git_script]
+command = bash /home/biqu/printer_data/klipper-backup/script.sh
+timeout = 90.0
+verbose = True
+=======================
+Extruder max_extrude_ratio=0.266081
+mcu 'mcu': Starting serial connect
+webhooks client 281473026722976: New connection
+webhooks client 281473026722976: Client info {'program': 'Moonraker', 'version': 'v0.8.0-202-gdddd968'}
+Loaded MCU 'mcu' 112 commands (v0.12.0-0-g0d67d9c4 / gcc: (15:8-2019-q3-1+b1) 8.3.1 20190703 (release) [gcc-8-branch revision 273027] binutils: (2.35.2-2+14+b2) 2.35.2)
+MCU 'mcu' config: ADC_MAX=4095 BUS_PINS_i2c1=PB6,PB7 BUS_PINS_i2c1a=PB8,PB9 BUS_PINS_i2c2=PB10,PB11 BUS_PINS_spi1=PA6,PA7,PA5 BUS_PINS_spi1a=PB4,PB5,PB3 BUS_PINS_spi2=PB14,PB15,PB13 BUS_PINS_spi3=PB4,PB5,PB3 CLOCK_FREQ=72000000 MCU=stm32f103xe PWM_MAX=255 RECEIVE_WINDOW=192 RESERVE_PINS_serial=PA10,PA9 SERIAL_BAUD=250000 STATS_SUMSQ_BASE=256 STEPPER_BOTH_EDGE=1
+Sending MCU 'mcu' printer configuration...
+Configured MCU 'mcu' (1024 moves)
+Enabling TMC virtual enable for 'stepper_x'
+Enabling TMC virtual enable for 'stepper_y'
+Enabling TMC virtual enable for 'stepper_z'
+Enabling TMC virtual enable for 'extruder'
+Starting heater checks for heater_bed
+bed_mesh: generated points
+Index |  Tool Adjusted  |   Probe
+  0   | (0.0, 40.0)     | (28.0, 20.0)
+  1   | (20.2, 40.0)    | (48.2, 20.0)
+  2   | (40.4, 40.0)    | (68.4, 20.0)
+  3   | (60.7, 40.0)    | (88.7, 20.0)
+  4   | (80.9, 40.0)    | (108.9, 20.0)
+  5   | (101.1, 40.0)   | (129.1, 20.0)
+  6   | (121.3, 40.0)   | (149.3, 20.0)
+  7   | (141.5, 40.0)   | (169.5, 20.0)
+  8   | (161.8, 40.0)   | (189.8, 20.0)
+  9   | (182.0, 40.0)   | (210.0, 20.0)
+  10  | (182.0, 60.5)   | (210.0, 40.5)
+  11  | (161.8, 60.5)   | (189.8, 40.5)
+  12  | (141.5, 60.5)   | (169.5, 40.5)
+  13  | (121.3, 60.5)   | (149.3, 40.5)
+  14  | (101.1, 60.5)   | (129.1, 40.5)
+  15  | (80.9, 60.5)    | (108.9, 40.5)
+  16  | (60.7, 60.5)    | (88.7, 40.5)
+  17  | (40.4, 60.5)    | (68.4, 40.5)
+  18  | (20.2, 60.5)    | (48.2, 40.5)
+  19  | (0.0, 60.5)     | (28.0, 40.5)
+  20  | (0.0, 81.1)     | (28.0, 61.1)
+  21  | (20.2, 81.1)    | (48.2, 61.1)
+  22  | (40.4, 81.1)    | (68.4, 61.1)
+  23  | (60.7, 81.1)    | (88.7, 61.1)
+  24  | (80.9, 81.1)    | (108.9, 61.1)
+  25  | (101.1, 81.1)   | (129.1, 61.1)
+  26  | (121.3, 81.1)   | (149.3, 61.1)
+  27  | (141.5, 81.1)   | (169.5, 61.1)
+  28  | (161.8, 81.1)   | (189.8, 61.1)
+  29  | (182.0, 81.1)   | (210.0, 61.1)
+  30  | (182.0, 101.6)  | (210.0, 81.6)
+  31  | (161.8, 101.6)  | (189.8, 81.6)
+  32  | (141.5, 101.6)  | (169.5, 81.6)
+  33  | (121.3, 101.6)  | (149.3, 81.6)
+  34  | (101.1, 101.6)  | (129.1, 81.6)
+  35  | (80.9, 101.6)   | (108.9, 81.6)
+  36  | (60.7, 101.6)   | (88.7, 81.6)
+  37  | (40.4, 101.6)   | (68.4, 81.6)
+  38  | (20.2, 101.6)   | (48.2, 81.6)
+  39  | (0.0, 101.6)    | (28.0, 81.6)
+  40  | (0.0, 122.2)    | (28.0, 102.2)
+  41  | (20.2, 122.2)   | (48.2, 102.2)
+  42  | (40.4, 122.2)   | (68.4, 102.2)
+  43  | (60.7, 122.2)   | (88.7, 102.2)
+  44  | (80.9, 122.2)   | (108.9, 102.2)
+  45  | (101.1, 122.2)  | (129.1, 102.2)
+  46  | (121.3, 122.2)  | (149.3, 102.2)
+  47  | (141.5, 122.2)  | (169.5, 102.2)
+  48  | (161.8, 122.2)  | (189.8, 102.2)
+  49  | (182.0, 122.2)  | (210.0, 102.2)
+  50  | (182.0, 142.8)  | (210.0, 122.7)
+  51  | (161.8, 142.8)  | (189.8, 122.7)
+  52  | (141.5, 142.8)  | (169.5, 122.7)
+  53  | (121.3, 142.8)  | (149.3, 122.7)
+  54  | (101.1, 142.8)  | (129.1, 122.7)
+  55  | (80.9, 142.8)   | (108.9, 122.7)
+  56  | (60.7, 142.8)   | (88.7, 122.7)
+  57  | (40.4, 142.8)   | (68.4, 122.7)
+  58  | (20.2, 142.8)   | (48.2, 122.7)
+  59  | (0.0, 142.8)    | (28.0, 122.7)
+  60  | (0.0, 163.3)    | (28.0, 143.3)
+  61  | (20.2, 163.3)   | (48.2, 143.3)
+  62  | (40.4, 163.3)   | (68.4, 143.3)
+  63  | (60.7, 163.3)   | (88.7, 143.3)
+  64  | (80.9, 163.3)   | (108.9, 143.3)
+  65  | (101.1, 163.3)  | (129.1, 143.3)
+  66  | (121.3, 163.3)  | (149.3, 143.3)
+  67  | (141.5, 163.3)  | (169.5, 143.3)
+  68  | (161.8, 163.3)  | (189.8, 143.3)
+  69  | (182.0, 163.3)  | (210.0, 143.3)
+  70  | (182.0, 183.8)  | (210.0, 163.8)
+  71  | (161.8, 183.8)  | (189.8, 163.8)
+  72  | (141.5, 183.8)  | (169.5, 163.8)
+  73  | (121.3, 183.8)  | (149.3, 163.8)
+  74  | (101.1, 183.8)  | (129.1, 163.8)
+  75  | (80.9, 183.8)   | (108.9, 163.8)
+  76  | (60.7, 183.8)   | (88.7, 163.8)
+  77  | (40.4, 183.8)   | (68.4, 163.8)
+  78  | (20.2, 183.8)   | (48.2, 163.8)
+  79  | (0.0, 183.8)    | (28.0, 163.8)
+  80  | (0.0, 204.4)    | (28.0, 184.4)
+  81  | (20.2, 204.4)   | (48.2, 184.4)
+  82  | (40.4, 204.4)   | (68.4, 184.4)
+  83  | (60.7, 204.4)   | (88.7, 184.4)
+  84  | (80.9, 204.4)   | (108.9, 184.4)
+  85  | (101.1, 204.4)  | (129.1, 184.4)
+  86  | (121.3, 204.4)  | (149.3, 184.4)
+  87  | (141.5, 204.4)  | (169.5, 184.4)
+  88  | (161.8, 204.4)  | (189.8, 184.4)
+  89  | (182.0, 204.4)  | (210.0, 184.4)
+  90  | (182.0, 225.0)  | (210.0, 205.0)
+  91  | (161.8, 225.0)  | (189.8, 205.0)
+  92  | (141.5, 225.0)  | (169.5, 205.0)
+  93  | (121.3, 225.0)  | (149.3, 205.0)
+  94  | (101.1, 225.0)  | (129.1, 205.0)
+  95  | (80.9, 225.0)   | (108.9, 205.0)
+  96  | (60.7, 225.0)   | (88.7, 205.0)
+  97  | (40.4, 225.0)   | (68.4, 205.0)
+  98  | (20.2, 225.0)   | (48.2, 205.0)
+  99  | (0.0, 225.0)    | (28.0, 205.0)
+Starting heater checks for extruder
+Stats 44.7: gcodein=0  mcu: mcu_awake=0.000 mcu_task_avg=0.000000 mcu_task_stddev=0.000000 bytes_write=2721 bytes_read=5539 bytes_retransmit=9 bytes_invalid=0 send_seq=201 receive_seq=198 retransmit_seq=2 srtt=0.003 rttvar=0.001 rto=0.025 ready_bytes=1573 upcoming_bytes=552 freq=72005491 heater_bed: target=0 temp=0.0 pwm=0.000  sysload=4.02 cputime=5.301 memavail=715996 print_time=0.001 buffer_time=0.000 print_stall=0 extruder: target=0 temp=0.0 pwm=0.000
+webhooks: registering remote method 'shutdown_machine' for connection id: 281473026722976
+webhooks: registering remote method 'reboot_machine' for connection id: 281473026722976
+webhooks: registering remote method 'pause_job_queue' for connection id: 281473026722976
+webhooks: registering remote method 'start_job_queue' for connection id: 281473026722976
+Stats 45.7: gcodein=0  mcu: mcu_awake=0.062 mcu_task_avg=0.000155 mcu_task_stddev=0.000360 bytes_write=5085 bytes_read=5877 bytes_retransmit=9 bytes_invalid=0 send_seq=247 receive_seq=246 retransmit_seq=2 srtt=0.004 rttvar=0.001 rto=0.025 ready_bytes=18 upcoming_bytes=0 freq=72005349 heater_bed: target=0 temp=14.8 pwm=0.000  sysload=4.02 cputime=5.375 memavail=714796 print_time=0.001 buffer_time=0.000 print_stall=0 extruder: target=0 temp=16.0 pwm=0.000
+Stats 46.7: gcodein=0  mcu: mcu_awake=0.062 mcu_task_avg=0.000155 mcu_task_stddev=0.000360 bytes_write=5114 bytes_read=5993 bytes_retransmit=9 bytes_invalid=0 send_seq=249 receive_seq=249 retransmit_seq=2 srtt=0.003 rttvar=0.001 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72004931 heater_bed: target=0 temp=14.9 pwm=0.000  sysload=4.02 cputime=5.411 memavail=707764 print_time=0.001 buffer_time=0.000 print_stall=0 extruder: target=0 temp=15.9 pwm=0.000
+Stats 47.7: gcodein=0  mcu: mcu_awake=0.062 mcu_task_avg=0.000155 mcu_task_stddev=0.000360 bytes_write=5120 bytes_read=6114 bytes_retransmit=9 bytes_invalid=0 send_seq=250 receive_seq=250 retransmit_seq=2 srtt=0.003 rttvar=0.001 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72004685 heater_bed: target=0 temp=15.0 pwm=0.000  sysload=4.02 cputime=5.445 memavail=707512 print_time=0.001 buffer_time=0.000 print_stall=0 extruder: target=0 temp=15.9 pwm=0.000
+Stats 48.7: gcodein=0  mcu: mcu_awake=0.062 mcu_task_avg=0.000155 mcu_task_stddev=0.000360 bytes_write=5126 bytes_read=6235 bytes_retransmit=9 bytes_invalid=0 send_seq=251 receive_seq=251 retransmit_seq=2 srtt=0.003 rttvar=0.001 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72004634 heater_bed: target=0 temp=14.8 pwm=0.000  sysload=4.02 cputime=5.477 memavail=708624 print_time=0.001 buffer_time=0.000 print_stall=0 extruder: target=0 temp=15.8 pwm=0.000
+Stats 49.7: gcodein=0  mcu: mcu_awake=0.062 mcu_task_avg=0.000155 mcu_task_stddev=0.000360 bytes_write=5132 bytes_read=6341 bytes_retransmit=9 bytes_invalid=0 send_seq=252 receive_seq=252 retransmit_seq=2 srtt=0.003 rttvar=0.001 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72004423 heater_bed: target=0 temp=15.0 pwm=0.000  sysload=4.02 cputime=5.497 memavail=708624 print_time=0.001 buffer_time=0.000 print_stall=0 extruder: target=0 temp=15.9 pwm=0.000
+Stats 50.7: gcodein=0  mcu: mcu_awake=0.001 mcu_task_avg=0.000014 mcu_task_stddev=0.000035 bytes_write=5138 bytes_read=6461 bytes_retransmit=9 bytes_invalid=0 send_seq=253 receive_seq=253 retransmit_seq=2 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72004340 heater_bed: target=0 temp=14.8 pwm=0.000  sysload=3.69 cputime=5.523 memavail=708372 print_time=0.001 buffer_time=0.000 print_stall=0 extruder: target=0 temp=15.9 pwm=0.000
+Stats 51.7: gcodein=0  mcu: mcu_awake=0.001 mcu_task_avg=0.000014 mcu_task_stddev=0.000035 bytes_write=5144 bytes_read=6597 bytes_retransmit=9 bytes_invalid=0 send_seq=254 receive_seq=254 retransmit_seq=2 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72004286 heater_bed: target=0 temp=15.0 pwm=0.000  sysload=3.69 cputime=5.550 memavail=707896 print_time=0.001 buffer_time=0.000 print_stall=0 extruder: target=0 temp=15.7 pwm=0.000
+Stats 52.7: gcodein=0  mcu: mcu_awake=0.001 mcu_task_avg=0.000014 mcu_task_stddev=0.000035 bytes_write=5150 bytes_read=6703 bytes_retransmit=9 bytes_invalid=0 send_seq=255 receive_seq=255 retransmit_seq=2 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72004313 heater_bed: target=0 temp=14.9 pwm=0.000  sysload=3.69 cputime=5.575 memavail=707896 print_time=0.001 buffer_time=0.000 print_stall=0 extruder: target=0 temp=15.9 pwm=0.000
+Stats 53.7: gcodein=0  mcu: mcu_awake=0.001 mcu_task_avg=0.000014 mcu_task_stddev=0.000035 bytes_write=5156 bytes_read=6809 bytes_retransmit=9 bytes_invalid=0 send_seq=256 receive_seq=256 retransmit_seq=2 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72004349 heater_bed: target=0 temp=15.0 pwm=0.000  sysload=3.69 cputime=5.605 memavail=707904 print_time=0.001 buffer_time=0.000 print_stall=0 extruder: target=0 temp=15.7 pwm=0.000
+Stats 54.7: gcodein=0  mcu: mcu_awake=0.001 mcu_task_avg=0.000014 mcu_task_stddev=0.000035 bytes_write=5162 bytes_read=6936 bytes_retransmit=9 bytes_invalid=0 send_seq=257 receive_seq=257 retransmit_seq=2 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72004351 heater_bed: target=0 temp=15.0 pwm=0.000  sysload=3.69 cputime=5.641 memavail=706324 print_time=0.001 buffer_time=0.000 print_stall=0 extruder: target=0 temp=15.6 pwm=0.000
+Running Command {update_git_script}...:
+cp: cannot stat '/home/biqu/printer_data/config/kLIPPERsCREEN.conf': No such file or directory
+
+cp: cannot stat '/home/biqu/printer_data/config/timelapse.cfg': No such file or directory
+
+cp: cannot stat '/home/biqu/printer_data/config/telegram.conf': No such file or directory
+
+cp: cannot stat '/home/biqu/printer_data/config/adxl.cfg': No such file or directory
+
+cp: cannot stat '/home/biqu/printer_data/config/pa_cal.cfg': No such file or directory
+
+cp: cannot stat '/home/biqu/printer_data/config/GET_PROBE_LIMITS.cfg': No such file or directory
+
+cp: cannot stat '/home/biqu/printer_data/config/saved_variables.cfg': No such file or directory
+
+cp: cannot stat '/home/biqu/printer_data/config/pa_flow_calibrate.cfg': No such file or directory
+
+cp: cannot stat '/home/biqu/printer_data/config/sounds.cfg': No such file or directory
+
+cp: cannot stat '/home/biqu/printer_data/config/macros.cfg': No such file or directory
+
