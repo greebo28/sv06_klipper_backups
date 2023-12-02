@@ -1924,3 +1924,79 @@ cp: cannot stat '/home/biqu/printer_data/config/sounds.cfg': No such file or dir
 
 cp: cannot stat '/home/biqu/printer_data/config/macros.cfg': No such file or directory
 
+cp: cannot copy a directory, '/home/biqu/printer_data/', into itself, '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data'
+
+Reinitialized existing Git repository in /home/biqu/printer_data/klipper-backup/.git/
+
+WARNING: git-filter-branch has a glut of gotchas generating mangled history
+	 rewrites.  Hit Ctrl-C before proceeding to abort, then use an
+	 alternative filtering tool such as 'git filter-repo'
+	 (https://github.com/newren/git-filter-repo/) instead.  See the
+	 filter-branch manual page for more details; to squelch this warning,
+	 set FILTER_BRANCH_SQUELCH_WARNING=1.
+
+Proceeding with filter-branch...
+
+
+Cannot rewrite branches: You have unstaged changes.
+
+[main 8d6e8a4] New backup from 02-12-23
+ Committer: biqu <biqu@BTT-Pad7.fritz.box>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 27 files changed, 21144 insertions(+), 17678 deletions(-)
+ rename sv06_klipper_backups/printer_data/config/{macros/using macros => macros-folder/base_macros} (100%)
+ create mode 100644 sv06_klipper_backups/printer_data/config/macros-folder/calibration_macros
+ create mode 100644 sv06_klipper_backups/printer_data/config/macros-folder/filament_macros
+ create mode 100644 sv06_klipper_backups/printer_data/config/macros-folder/test_macros
+ create mode 100644 sv06_klipper_backups/printer_data/config/macros-folder/uploaded_macros_others
+ delete mode 100644 sv06_klipper_backups/printer_data/config/printer-20231119_145044.cfg
+ delete mode 100644 sv06_klipper_backups/printer_data/config/printer_orig.cfg
+ rewrite sv06_klipper_backups/printer_data/logs/klippy.log (74%)
+ delete mode 100644 sv06_klipper_backups/printer_data/logs/klippy.log.2023-11-18
+ delete mode 100644 sv06_klipper_backups/printer_data/logs/klippy.log.2023-11-19
+ copy sv06_klipper_backups/printer_data/logs/{klippy.log => klippy.log.2023-11-21} (82%)
+ create mode 100644 sv06_klipper_backups/printer_data/logs/klippy.log.2023-11-22
+ create mode 100644 sv06_klipper_backups/printer_data/logs/klippy.log.2023-11-23
+ create mode 100644 sv06_klipper_backups/printer_data/logs/klippy.log.2023-11-27
+ rewrite sv06_klipper_backups/printer_data/logs/moonraker.log (76%)
+ delete mode 100644 sv06_klipper_backups/printer_data/logs/moonraker.log.2023-11-18
+ delete mode 100644 sv06_klipper_backups/printer_data/logs/moonraker.log.2023-11-19
+ delete mode 100644 sv06_klipper_backups/printer_data/logs/moonraker.log.2023-11-20
+ create mode 100644 sv06_klipper_backups/printer_data/logs/moonraker.log.2023-11-23
+ create mode 100644 sv06_klipper_backups/printer_data/logs/moonraker.log.2023-11-27
+
+To https://github.com/greebo28/sv06_klipper_backups.git
+   e79e45c..8d6e8a4  main -> main
+
+Command {update_git_script} finished
+
+Running Command {update_git_script}...:
+cp: cannot stat '/home/biqu/printer_data/config/timelapse.cfg': No such file or directory
+
+cp: cannot stat '/home/biqu/printer_data/config/telegram.conf': No such file or directory
+
+cp: cannot stat '/home/biqu/printer_data/config/adxl.cfg': No such file or directory
+
+cp: cannot stat '/home/biqu/printer_data/config/pa_cal.cfg': No such file or directory
+
+cp: cannot stat '/home/biqu/printer_data/config/GET_PROBE_LIMITS.cfg': No such file or directory
+
+cp: cannot stat '/home/biqu/printer_data/config/saved_variables.cfg': No such file or directory
+
+cp: cannot stat '/home/biqu/printer_data/config/pa_flow_calibrate.cfg': No such file or directory
+
+cp: cannot stat '/home/biqu/printer_data/config/sounds.cfg': No such file or directory
+
+cp: cannot stat '/home/biqu/printer_data/config/macros.cfg': No such file or directory
+
