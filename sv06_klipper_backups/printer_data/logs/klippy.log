@@ -2000,3 +2000,170 @@ cp: cannot stat '/home/biqu/printer_data/config/sounds.cfg': No such file or dir
 
 cp: cannot stat '/home/biqu/printer_data/config/macros.cfg': No such file or directory
 
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/pack/pack-bb61737bffe11bbe9bebde7f03c3bb991f38fd46.pack': Permission denied
+
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/pack/pack-bb61737bffe11bbe9bebde7f03c3bb991f38fd46.idx': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/33/ccd196e9dedc8d42bd62f4fbe7958b395b50a7': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/91/7eff8d751498d4b6eeb3e657334fd8eee3d8ba': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/b5/bd979a2ad6341ca45c26e7a14c602d333ce767': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/26/c13805eb62310a1c5d34e7aa4c88ae6d45afb6': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/88/b204cd8b774978ca7b60e4bd564021c08a05f4': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/92/dbc33c906aab8576250caaccf2513fda2436fd': Permission denied
+
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/6c/fd02307f4473bc2b7ff167da3abe161679486e': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/2d/009dbacb00bc68d16d84353a1c9f4396b6113c': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/44/703f2bdd4002ed047916763bd85d948cb40b3c': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/13/b434c57e9c5c9c864080e7647a59eaf35aa943': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/84/864e9a03ada9149e2c9e8305818826b4f9456f': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/f3/6c57a8ae438062465484449952170e0f60d295': Permission denied
+
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/2b/6146566168b0a3620e51c4feda051ea98d6604': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/93/a1b490225101f14d1693ae46892ee49900431e': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/ef/a3dd50d8c4272b1d13d036f69a9a6a7071d4f7': Permission denied
+
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/97/98c428cd0e00d80eb43915b1fc9ffe01a75a5f': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/97/fc2c4d4455ed97b63cfb564c99104d74f6b10d': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/52/458f6c3e8c15e40264de4cc6188fe523b18bfd': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/cc/d9e088ddcc491d89886d000651e8ac7c5f5c10': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/74/47374250486ce748d5f39e934c1f4e6f1bd640': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/fb/2212594c4e77285c5aa9f14e36ed6eb5d15618': Permission denied
+
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/34/e758149eadd14dba30b67a398950f1914ef6a6': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/4c/b0da637aff46871d25ceaee8ba8320ffa40605': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/ab/7af533049c2c22e39f8ea84f66ba2a8239d392': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/58/e3d7a29c9a42a5c1db5d1ef8a3c686af653d35': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/0c/6a0784c49d00d283031fd2316eeaa35714f1da': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/c7/9be982b10954e03e2ed27c34d5a1387cf9d6c3': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/c7/42ae682b52964c1f8b6eb9d146bbdc124fbdc4': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/5d/d8cc4a601e6a449221b95ca77f7c9630fad2d7': Permission denied
+
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/5d/5c6e13458e44b435b2b310f1f0a33a74e2544c': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/25/57a0b8447f8e857455005a7a92a5fdfbbb3f65': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/8a/39be86eb59be477c65236281f4155e2c12c3bd': Permission denied
+
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/bb/3026593dbdbc7a0c1a2137488245627976297c': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/19/a59752049ef0731f81166e42f69570f080ca78': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/ae/ccec76163941dfdde20529c59472009851a890': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/ea/718e4d9f3b8d9f9c85f00bca7acf093c368ac3': Permission denied
+
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/3a/56faf1644ba5429f55862a4e4ae12aba2a2271': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/0b/ec7f859634e3ace36c761c0bab14cee7c90412': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/15/14ac5ab0f8f20d9e06c373e4268ae73f90d3f1': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/c0/810e2f57625cd5fa044fde0f31b2db79a374bc': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/3f/f12ae3c7d012a28f0719e3a5eb069158fb0338': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/a4/4620c8e6c79a285d04e619f4bb16fb7fd9a896': Permission denied
+
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/b4/cf7671f71249ee13eef87f02f018e6fedc71c2': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/03/39803f8646a431f0dfd020bfb3c63ccc135f71': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/1e/aa2ea420cb1063d2154ff745a6fe3494e5d35b': Permission denied
+
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/1e/734016b2b212b8c0b9ca8ba66d9d105a2174de': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/ca/1dbe5161c0be32b5e046f4de8290a3773921b8': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/ca/5f4cf4a86ce95586042901c48113ab75901708': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/36/8bc533ede3a4cd412daf737dbb9ff9a6e5d350': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/06/c62463b2f75fe1cf22ee85e9ea1a55ccf786d9': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/85/377228686196c279b7deaf99e7a617251580c6': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/c6/a81edca626b906eeb049c27d97702cbd038f06': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/c6/dcaad215e38160cf71cc0c887085dcf048e95d': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/8f/3e476051974500b58484f785fd500b5a9f21b2': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/c1/66d1d865f80db8cbd10fa8813823be6e8705d1': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/57/bc2152c87361fae48b541ed7f494bbfd18f6c1': Permission denied
+
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/32/6519e5e7c5e6d50a6396bf94fb6103dca29132': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/55/f3707dd9508529ddb6cd55d836ef6a4b253cd8': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/a0/1de4a98f3e94632996b7c5970eb8f0d84ec9d8': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/b3/9cbe8b056e5fbb55eb83762a4394592bf8e1e8': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/46/4b73dbaa3e0ea15dc5e793dfea794dc9d93dd3': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/ac/a06fb3a378fe70daff6a3d648ad788f44ed5b1': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/01/b327b3f126d5c2e88ad35fcd26854756e89e27': Permission denied
+
+Write g-code response
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/gcode.py", line 446, in _respond_raw
+    os.write(self.fd, (msg+"\n").encode())
+BlockingIOError: [Errno 11] Resource temporarily unavailable
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/d5/1244df3801c1144b15fff1d1f4561c808df1f8': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/3b/ccfb6d06aca9a9662e59db47f61acf1e27b696': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/16/352a3d056e86ac8f6de5b4b2fcf7670ff9e611': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/e7/06e61ffb47b9280c6973c2b532561a2583808a': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/e7/9e45ccc0e21e90004b1476af84640fd10f9f2f': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/cf/0e5a80567ac3e0fb189792e720931ed486e67a': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/75/82b1bca565d8a5c1623cc3f86fd141bd8d6d91': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/12/e1e11f6b78742318c6e4f6c19ec4aee92283cb': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/53/f5b3df150368f72ac79e78433625badb57a8b7': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/c5/d59216701ba9ab86f69ce61e950e05edf10e92': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/f5/0f3a0f1402f6319d24e316215c03b18300dd07': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/6b/f4d7332208be6ced27e2201f7e432ade601c53': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/78/2cbe9630a6382a36d0800e29fc73b06b0ff011': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/77/61bb944cdca452a3a7d708189d5aa0b3eb17e7': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/c4/ea0e8c08d45d2c244dbc40806c8054b1351bf5': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/5e/b223c8631615924eeec61ecdace6a959e182a5': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/68/d23e590fde575226c2ded30ed1a6cf40e45428': Permission denied
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/a6/6801bd4c2971811248170a4555c1ab39474644': Permission denied
+
+cp: cannot create regular file '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data/klipper-backup/.git/objects/e0/d1441638d383200f1af4863ef44033fde88760': Permission denied
+
+cp: cannot copy a directory, '/home/biqu/printer_data/', into itself, '/home/biqu/printer_data/klipper-backup/sv06_klipper_backups/printer_data'
+
+Reinitialized existing Git repository in /home/biqu/printer_data/klipper-backup/.git/
+
+WARNING: git-filter-branch has a glut of gotchas generating mangled history
+	 rewrites.  Hit Ctrl-C before proceeding to abort, then use an
+	 alternative filtering tool such as 'git filter-repo'
+	 (https://github.com/newren/git-filter-repo/) instead.  See the
+	 filter-branch manual page for more details; to squelch this warning,
+	 set FILTER_BRANCH_SQUELCH_WARNING=1.
+
+Proceeding with filter-branch...
+
+
+Cannot rewrite branches: You have unstaged changes.
+
+[main d57983d] New backup from 02-12-23
+ Committer: biqu <biqu@BTT-Pad7.fritz.box>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 77 insertions(+), 1 deletion(-)
+
+To https://github.com/greebo28/sv06_klipper_backups.git
+   8d6e8a4..d57983d  main -> main
+
+Command {update_git_script} finished
+
+webhooks client 281473538355264: Disconnected
+webhooks client 281473540691040: New connection
+webhooks client 281473540691040: Client info {'program': 'Moonraker', 'version': 'v0.8.0-202-gdddd968'}
+webhooks: registering remote method 'shutdown_machine' for connection id: 281473540691040
+webhooks: registering remote method 'reboot_machine' for connection id: 281473540691040
+webhooks: registering remote method 'pause_job_queue' for connection id: 281473540691040
+webhooks: registering remote method 'start_job_queue' for connection id: 281473540691040
+Running Command {update_git_script}...:
+cp: cannot stat '/home/biqu/printer_data/config/timelapse.cfg': No such file or directory
+
+cp: cannot stat '/home/biqu/printer_data/config/telegram.conf': No such file or directory
+
+cp: cannot stat '/home/biqu/printer_data/config/adxl.cfg': No such file or directory
+
+cp: cannot stat '/home/biqu/printer_data/config/pa_cal.cfg': No such file or directory
+
+cp: cannot stat '/home/biqu/printer_data/config/GET_PROBE_LIMITS.cfg': No such file or directory
+
+cp: cannot stat '/home/biqu/printer_data/config/saved_variables.cfg': No such file or directory
+
+cp: cannot stat '/home/biqu/printer_data/config/pa_flow_calibrate.cfg': No such file or directory
+
+cp: cannot stat '/home/biqu/printer_data/config/sounds.cfg': No such file or directory
+
+cp: cannot stat '/home/biqu/printer_data/config/macros.cfg': No such file or directory
+
